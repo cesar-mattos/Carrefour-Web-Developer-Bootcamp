@@ -1,0 +1,115 @@
+body {
+	background: #154360;
+	font-family: Amaranth, Verdana;
+	max-width: 800px;
+	margin: auto;
+}
+
+.my_img {
+	border-radius: 15%;
+	border: 1px solid #839192;
+	margin: auto;
+	width: 20%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#title, .subtitle, .post_title {
+	color: #BFC9CA;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+hr {
+	border: 1px solid #839192;
+}
+
+.a_post {
+	text-decoration: underline;
+	color: #34495E;
+}
+
+.a {
+	text-decoration: underline;
+	color: #BFC9CA;
+}
+
+.post_title {
+	font-size: 16px;
+	font-style: italica;
+	margin: 0;
+	margin-bottom: 8px;
+	color: #34495E;
+}
+
+.post {
+	background: #BFC9CA;
+	padding: 15px;
+	border: 2px solid #839192;
+	margin-bottom: 15px;
+}
+
+.post_content{
+	margin: 0;
+	margin-bottom: 15px;
+	text-transform: capitalize;
+	text-align: justify;
+	color: #34495E;
+}
+
+.post_img {
+	margin-bottom: 15px;
+	border-radius: 5px;
+	width: 50%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#footer {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 5px;
+	color: #BFC9CA;
+}
+
+
+#gmail {
+  list-style: none;
+   color: #BFC9CA;
+}
+#gmail::before {
+  content: '';
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+  background: url('https://api.iconify.design/logos/google-gmail.svg') no-repeat center center / contain;
+  color: #BFC9CA;
+}
+
+#linkedin {
+  list-style: none;
+}
+#linkedin::before {
+  content: '';
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+  background: url('https://api.iconify.design/logos/linkedin-icon.svg') no-repeat center center / contain;
+
+}
+
+#github {
+  list-style: none;
+}
+#github::before {
+  content: '';
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+  background: url('https://api.iconify.design/akar-icons/github-fill.svg') no-repeat center center / contain;
+}
