@@ -1,0 +1,73 @@
+.navbar {
+   background-color: #38A1AC;
+   padding-left: 20px;
+}
+
+.quem_somos {
+    background-color: #39696C;
+}
+
+.parceiros_div {
+    background-color: #4D7B80;
+}
+
+.servicos-div {
+    background-color: #485A5C;
+}
+
+.margin {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+#img1 {
+    border-radius: 10%;
+}
+
+.figs {
+    padding-top: 20px;
+    border-radius: 10%;
+}
+
+footer {
+	background-color: #DDEBEA;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    }
+
+
+#gmail {
+  list-style: none;
+   color: #BFC9CA;
+}
+#gmail::before {
+  content: '';
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+  background: url('https://api.iconify.design/logos/google-gmail.svg') no-repeat center center / contain;
+  color: #BFC9CA;
+}
+
+#linkedin {
+  list-style: none;
+}
+#linkedin::before {
+  content: '';
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+  background: url('https://api.iconify.design/logos/linkedin-icon.svg') no-repeat center center / contain;
+
+}
+
+#github {
+  list-style: none;
+}
+#github::before {
+  content: '';
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+  background: url('https://api.iconify.design/akar-icons/github-fill.svg') no-repeat center center / contain;
+}
